@@ -17,5 +17,5 @@ transcript = box.find('div', class_='full-script').get_text(strip=True, separato
 # print(title)
 # print(transcript)
 
-with open(f'{title}.text', 'w') as file:
+with open(f'{title}.txt', 'w') as file:
     file.write(transcript)
